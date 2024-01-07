@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 @RestController
 @RequestMapping("api/v1/s1")
-public class s1Controller {
+public class S1Controller {
    private final Logger log = Logger.getLogger("s1Controller");
 
    @Value("${service2.url}")

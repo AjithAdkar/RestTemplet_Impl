@@ -8,7 +8,7 @@ import java.util.logging.Logger;
 
 @RestController
 @RequestMapping("api/v1/s2")
-public class s2Controller {
+public class S2Controller {
    private final Logger log = Logger.getLogger("s1Controller");
 
     @GetMapping
